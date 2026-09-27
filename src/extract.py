@@ -12,10 +12,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# API endpoint
-url = 'https://dummyjson.com/carts'
-
-
 # Extract data from the API
 def extract(url):
     try:
