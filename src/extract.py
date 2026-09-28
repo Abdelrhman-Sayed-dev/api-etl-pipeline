@@ -13,7 +13,8 @@ logger = logging.getLogger(__name__)
 
 
 # Extract data from the API
-def extract(url):
+def extract():
+    url = 'https://dummyjson.com/carts'
     try:
         data = requests.get(url, timeout=30).json()['carts']
 
